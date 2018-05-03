@@ -800,7 +800,7 @@ char ** checkNotifications(int pendingFromLastSession, char ** validFileList, in
 *  2. Copy and paste this code to your project source file
 *  2. Call Function find_valid_transaction_files as in the main() example above
 *
-*
+* The following couple of functions was code provided by course instructor and slightly modified by me.
 **************************************************************************************************/
 char ** find_valid_transaction_files(int * confirmed_transactions_count, int fileType)
 {
